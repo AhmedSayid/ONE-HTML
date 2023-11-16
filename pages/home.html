@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/home.css">
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="container  navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand me-5" href="#"><svg width="52" height="52" viewBox="0 0 133 52" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M40.9 8.9532L38.6108 7.25919C38.5973 7.24916 38.5965 7.24474 38.5798 7.24252C38.0389 7.17079 16.4516 4.35213 11.1417 10.6424C6.07752 16.6414 4.24205 32.9148 12.1417 39.6195C21.6013 47.6482 49.3324 47.738 58.0619 39.6195C62.9296 35.0925 62.4489 25.1168 59.0873 17.4843C59.0718 17.4491 59.0374 17.4262 58.999 17.425L48.7384 17.1189L48.7384 16.0105L54.9001 7.54896L61.0151 7.54896C61.0448 7.54896 61.0729 7.56213 61.0919 7.58491L91.9425 44.5836C91.9615 44.6064 91.9897 44.6195 92.0193 44.6195L99.0277 44.6195C99.083 44.6195 99.1277 44.5748 99.1277 44.5195L99.1277 8.45896C99.1277 8.40373 99.1725 8.35896 99.2277 8.35896L132.09 8.35897M108.402 26.4693L119.746 26.4693L132.09 26.4693M108.402 43.6195L119.746 43.6195L132.09 43.6195"
+                        stroke="black" stroke-width="11.6" stroke-miterlimit="2.2042" />
+                </svg>
+            </a>
+            <!-- brand icon -->
+            <button class="navbar-toggler ico" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                    class="bi bi-list-nested" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+            <!-- btn toggler -->
+            <div class="collapse navbar-collapse ms-lg-5" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-dark fw-simebold fs-5 me-3" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark fw-simebold fs-5 me-3" href="#">cart</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-dark fw-simebold fs-5" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <div class="dropdown-item text-dark d-flex align-items-center fw-simebold" href="#">
+                                <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-activity me-3" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z" />
+                                    </svg></div>
+                                <div>Actions</div>
+                            </div>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <div class="dropdown-item text-dark d-flex align-items-center fw-simebold" href="#">
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-bookmark me-3" viewBox="0 0 16 16">
+                                            <path
+                                                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z" />
+                                        </svg></div>
+                                    <div>saved</div>
+                                </div>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <div class="dropdown-item text-dark d-flex align-items-center fw-simebold">
+                                    <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-box-arrow-in-right me-3"
+                                            viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
+                                            <path fill-rule="evenodd"
+                                                d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                                        </svg></div>
+                                    <div>logout</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+            </div>
+            <!-- list -->
+        </div>
+    </nav>
+    <div class="container CategoriesContainer d-flex align-items-center">
+        <ul class="navbar-nav  ">
+            <li class="nav-item dropdown  ">
+                <div class="nav-link p-2 dropdown-toggle text-dark fw-normal fs-5 bg-gray  text-center" href="#"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Women
+                </div>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">men</a></li>
+                    <li><a class="dropdown-item" href="#">chiled</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">All</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!--  -->
+        <div class="fs-2 text-gray ms-3"> <svg width="1" height="100 " viewBox="0 0 1 26" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <line x1="0.2" y1="8.74228e-09" x2="0.199999" y2="26" stroke="#7B7B7B" stroke-width="0.4" />
+            </svg>
+        </div>
+        <!-- catigories -->
+        <div class="fs-7 text-gray overflow">
+            <div class="me-4 ms-4 ">Top</div>
+            <div class="me-4 ">Shorts</div>
+            <div class="me-4 ">trouders</div>
+            <div class="me-4 ">skirts</div>
+            <div class="me-4 ">Shirts</div>
+            <div class="me-4 ">T_Shirts</div>
+        </div>
+    </div>
+    <div class="container mt-3 p-2 w-100">
+        <div class="row">
+            <div class=" col-12 mb-3">
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../assets/images/img/products/(2).png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/images/img/products/(3).png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../assets/images/img/products/(3).png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3 p-2 w-100">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="fs-7 fw-simebold">Products</div>
+            <div class="fs-7 fw-simebold">see all</div>
+        </div>
+        <div class='row mt-3'>
+            <div class='col-12 col-md-3 col-sm-6'>
+                <div class='rounded-3 card p-3 d-flex justify-content-center flex-column align-items-center mb-3'>
+                    <img src="../assets/images/pexels-tnarg-3353466.png" class="img-card rounded-3" alt="">
+                    <!--  -->
+                    <div class="d-flex justify-content-between align-items-center w-75 mt-3">
+                        <div class="fs-7 fw-simebold">350 l.e</div>
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-heart" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="text-gray mt-3">
+                        wight hoodie with captcha - 4D54
+                    </div>
+                    <div class="btn btn-outline-dark w-100 mt-3">detailes</div>
+                </div>
+
+            </div>
+            <div class='col-12 col-md-3 col-sm-6'>
+                <div class='rounded-3 card p-3 d-flex justify-content-center flex-column align-items-center mb-3'>
+                    <img src="../assets/images/pexels-monstera-6311449.png" class="img-card rounded-3" alt="">
+                    <!--  -->
+                    <div class="d-flex justify-content-between align-items-center w-75 mt-3">
+                        <div class="fs-7 fw-simebold">350 l.e</div>
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-heart" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="text-gray mt-3">
+                        wight hoodie with captcha - 4D54
+                    </div>
+                    <div class="btn btn-outline-dark w-100 mt-3">detailes</div>
+                </div>
+
+            </div>
+            <div class='col-12 col-md-3 col-sm-6'>
+                <div class='rounded-3 card p-3 d-flex justify-content-center flex-column align-items-center mb-3'>
+                    <img src="../assets/images/pexels-tnarg-3353466.png" class="img-card rounded-3" alt="">
+                    <!--  -->
+                    <div class="d-flex justify-content-between align-items-center w-75 mt-3">
+                        <div class="fs-7 fw-simebold">350 l.e</div>
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-heart" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="text-gray mt-3">
+                        wight hoodie with captcha - 4D54
+                    </div>
+                    <div class="btn btn-outline-dark w-100 mt-3">detailes</div>
+                </div>
+
+            </div>
+            <div class='col-12 col-md-3 col-sm-6'>
+                <div class='rounded-3 card p-3 d-flex justify-content-center flex-column align-items-center mb-3'>
+                    <img src="../assets/images/pexels-monstera-6311449.png" class="img-card rounded-3" alt="">
+                    <!--  -->
+                    <div class="d-flex justify-content-between align-items-center w-75 mt-3">
+                        <div class="fs-7 fw-simebold">350 l.e</div>
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-heart" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="text-gray mt-3">
+                        wight hoodie with captcha - 4D54
+                    </div>
+                    <div class="btn btn-outline-dark w-100 mt-3">detailes</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3 p-2 w-100">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="fs-7 fw-simebold">Recomended for you</div>
+            <div class="fs-7 fw-simebold">see all</div>
+        </div>
+        <div class='row mt-3'>
+            <div class='col-12 col-md-3 col-sm-6'>
+                <div class='rounded-3 card p-3 d-flex justify-content-center flex-column align-items-center mb-3'>
+                    <img src="../assets/images/pexels-tnarg-3353466.png" class="img-card rounded-3" alt="">
+                    <!--  -->
+                    <div class="d-flex justify-content-between align-items-center w-75 mt-3">
+                        <div class="fs-7 fw-simebold">350 l.e</div>
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-heart" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="text-gray mt-3">
+                        wight hoodie with captcha - 4D54
+                    </div>
+                    <div class="btn btn-outline-dark w-100 mt-3">detailes</div>
+                </div>
+
+            </div>
+            <div class='col-12 col-md-3 col-sm-6'>
+                <div class='rounded-3 card p-3 d-flex justify-content-center flex-column align-items-center mb-3'>
+                    <img src="../assets/images/pexels-monstera-6311449.png" class="img-card rounded-3" alt="">
+                    <!--  -->
+                    <div class="d-flex justify-content-between align-items-center w-75 mt-3">
+                        <div class="fs-7 fw-simebold">350 l.e</div>
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-heart" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="text-gray mt-3">
+                        wight hoodie with captcha - 4D54
+                    </div>
+                    <div class="btn btn-outline-dark w-100 mt-3">detailes</div>
+                </div>
+
+            </div>
+            <div class='col-12 col-md-3 col-sm-6'>
+                <div class='rounded-3 card p-3 d-flex justify-content-center flex-column align-items-center mb-3'>
+                    <img src="../assets/images/pexels-tnarg-3353466.png" class="img-card rounded-3" alt="">
+                    <!--  -->
+                    <div class="d-flex justify-content-between align-items-center w-75 mt-3">
+                        <div class="fs-7 fw-simebold">350 l.e</div>
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-heart" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="text-gray mt-3">
+                        wight hoodie with captcha - 4D54
+                    </div>
+                    <div class="btn btn-outline-dark w-100 mt-3">detailes</div>
+                </div>
+
+            </div>
+            <div class='col-12 col-md-3 col-sm-6'>
+                <div class='rounded-3 card p-3 d-flex justify-content-center flex-column align-items-center mb-3'>
+                    <img src="../assets/images/pexels-monstera-6311449.png" class="img-card rounded-3" alt="">
+                    <!--  -->
+                    <div class="d-flex justify-content-between align-items-center w-75 mt-3">
+                        <div class="fs-7 fw-simebold">350 l.e</div>
+                        <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-heart" viewBox="0 0 16 16">
+                                <path
+                                    d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="text-gray mt-3">
+                        wight hoodie with captcha - 4D54
+                    </div>
+                    <div class="btn btn-outline-dark w-100 mt-3">detailes</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
