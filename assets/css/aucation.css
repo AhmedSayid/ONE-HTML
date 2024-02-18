@@ -1,0 +1,52 @@
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    width: 220px;
+    height: 330px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+.h {
+    height: 100vh !important;
+}
+.card_aucation {
+    width: 220px;
+    height: 330px;
+    background: transparent;
+}
+.card_aucation::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+    filter: blur(3px);
+    background: rgb(255,249,230);
+    background: linear-gradient(45deg, rgba(255,249,230,1) 54%, rgba(239,239,239,1) 100%);
+}
+.content img {
+    width: 150px;
+    height: 150px;
+}
+.fs-sm {
+    font-size: 13px;
+}
+.content .text {
+    position: absolute;
+    bottom: 30px;
+    left: 33px;
+}
+@media (max-width:517px) {
+    .swiper-slide , .card_aucation{
+        width: 320px;
+        height: 430px;
+    }
+}

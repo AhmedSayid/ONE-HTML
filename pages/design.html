@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <title>design</title>
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center">
+        <div class=" d-flex justify-content-center align-items-center col-9 mt-5">
+            <img src="../assets/images/pexels-monstera-6311449.png" style="height: 400px;" class="rounded-3" alt="">
+        </div>
+    </div>
+    <div class="container d-flex flex-column">
+        <div class="d-flex justify-content-start mt-5">
+            <div class="py-0 px-2 bg-danger">.</div>
+            <div class="py-0 px-2 bg-dark mx-2">.</div>
+            <div class="py-0 px-2 bg-primary">.</div>
+        </div>
+
+        <div class="rounded-pill mt-4">
+            <button id="colorPickerBtn" class="rounded-pill px-4 py-2">Pick a Color</button>
+            <input type="color" class="d-none" id="colorPicker">
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script>
+
+    const colorPickerBtn = document.getElementById('colorPickerBtn');
+    const colorPicker = document.getElementById('colorPicker');
+
+    colorPickerBtn.addEventListener('click', () => {
+        colorPicker.click();
+    });
+
+</script>
